@@ -1,0 +1,63 @@
+{
+  "is_pseye": false,
+  "fps": 40,
+  "pseye_gain": 20,
+  "red_balance": 128,
+  "blue_balance": 128,
+  "green_balance": 128,
+  "pseye_exposure": 128,
+
+  "camera": 0,
+  "camera_brightness": 50,
+  "camera_contrast": 50,
+  "camera_sat": 50,
+  "camera_hue": 50,
+
+  "contrast": 0,
+  "brightness": 0,
+  "saturation": 1,
+
+  "is_contrast_on": false,
+  "is_brightness_on": false,
+  "is_saturation_on": false,
+
+  "point_1": [0.1, 0.1],
+  "point_2": [0.9, 0.1],
+  "point_3": [0.9, 0.9],
+  "point_4": [0.1, 0.9],
+
+  "cool_down": 500,
+
+  "offset_x": 0,
+  "offset_y": 0,
+
+  "resolutions": [
+    "640x480",
+    "1024x768",
+    "1280x1024"
+  ],
+
+  "selected_resolution": "640x480",
+
+  "hue_min": 20,
+  "hue_max": 160,
+
+  "sat_min": 100,
+  "sat_max": 255,
+
+  "val_min": 200,
+  "val_max": 255,
+
+  "min_dot_rad": 5,
+  "max_dot_rad": 50,
+
+  "zoom": 1,
+  "interps": {
+    "nearest": 0,
+    "linear": 1,
+    "cubic": 2,
+    "area": 3,
+    "lanczos4": 4
+  },
+  "interp": 1
+}
